@@ -1,0 +1,88 @@
+const products = [
+  {
+    id: 1,
+    category: "kids",
+    desc: "Pink summer dress for girls",
+    img: "../assets/images/full-length-portrait-cute-little-girl-hat.jpg",
+    price: 20,
+  },
+  {
+    id: 2,
+    category: "electronics",
+    desc: "Smartphone with HD screen",
+    img: "../assets/images/fathers-day-composition-with-jersey-shoes.jpg",
+    price: 1200,
+  },
+  {
+    id: 3,
+    category: "fashion",
+    desc: "Eco-leather handbag",
+    img: "../assets/images/still-life-with-classic-shirts-hanger (1).jpg",
+    price: 180,
+  },
+  {
+    id: 4,
+    category: "home",
+    desc: "Modern ceramic vases (3 pcs)",
+    img: "../assets/images/images (1).jpg",
+    price: 90,
+  },
+  {
+    id: 5,
+    category: "kids",
+    desc: "Educational toy for toddlers",
+    img: "../assets/images/full-length-portrait-cute-little-girl-hat.jpg",
+    price: 35,
+  },
+  {
+    id: 6,
+    category: "fashion",
+    desc: "Men's cotton t-shirt",
+    price: 70,
+    img: "../assets/images/flat-lay-baby-clothes-with-photo-camera.jpg",
+  },
+  {
+    id: 7,
+    category: "electronics",
+    desc: "Bluetooth earbuds with case",
+    price: 250,
+    img: "../assets/images/full-length-portrait-cute-little-girl-hat.jpg",
+  },
+  {
+    id: 8,
+    category: "sports",
+    desc: "Professional football",
+    price: 115,
+    img: "../assets/images/full-length-portrait-cute-little-girl-hat.jpg",
+  },
+  {
+    id: 9,
+    category: "home",
+    desc: "LED desk lamp with USB",
+    price: 60,
+    img: "../assets/images/images (2).jpg",
+  },
+  {
+    id: 10,
+    category: "kids",
+    desc: "Arabic storybook with pictures",
+    price: 40,
+    img: "../assets/images/full-length-portrait-cute-little-girl-hat.jpg",
+  },
+  {
+    id: 11,
+    category: "fashion",
+    desc: "Light summer dress",
+    price: 150,
+    img: "../assets/images/full-length-portrait-cute-little-girl-hat.jpg",
+  },
+  {
+    id: 12,
+    category: "electronics",
+    desc: "Fast-charging power bank 20000mAh",
+    price: 180,
+    img: "../assets/images/full-length-portrait-cute-little-girl-hat.jpg",
+  },
+];
+
+export default products;

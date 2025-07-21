@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer</title>
+    <script type="module" src="./customer.js"></script>
+    <link rel="stylesheet" href="./customer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+ 
+</head>
+<body>
+    <div class="search_category">
+        <div class="searchbar">
+        <input type="text" id="searchText" placeholder="search for products..." name="searchText">
+        </div>
+        <div class="category">
+            <select id="categorySelect">
+                <option value="all">All Options</option>
+                <option value="electronics">Electronics</option>
+                <option value="fashion">Fashion</option>
+                <option value="home">Home</option>
+                <option value="kids">Kids</option>
+            </select>
+        </div>
+        <div class="sort_price">
+            <select id="sort_price">
+                <option value="low">From Low to Hight</option>
+                <option value="hight">From Hight to Low</option>
+            </select>
+        </div>
+        <div class="cart-section">
+            <a href="./cart.html">
+            <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+        </div>
+    </div>
+    <div id="products">
+    </div>
+</body>
+</html>
