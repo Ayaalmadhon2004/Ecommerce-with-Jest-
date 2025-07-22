@@ -59,15 +59,17 @@
     </div>
   </div>
 
-  <script>
+  <script type="module">
+    import { calculateTotal } from '../Jest_tests/totalPrice.js';
+
+
     const cartList = document.getElementById("cartList");
     const cartItems = JSON.parse(localStorage.getItem("cart")) || [];
-    function calculateTotal(items) {
-      return items.reduce((acc, curr) => acc + Number(curr.price), 0);
-    }
+
     function displayTotal(total) {
       document.getElementById("total_price").textContent = `Total Price: ${total} $`;
     }
+
     cartItems.forEach(item => {
       const li = document.createElement("li");
       li.textContent = `${item.desc} - ${item.price} $`;
@@ -76,6 +78,7 @@
       icon.style.cursor = "pointer";
       li.appendChild(icon);
       cartList.appendChild(li);
+
       icon.addEventListener("click", () => {
         const updatedCart = cartItems.filter(cartItem => cartItem.id !== item.id);
         localStorage.setItem("cart", JSON.stringify(updatedCart));
@@ -92,5 +95,6 @@
     const initialTotal = calculateTotal(cartItems);
     displayTotal(initialTotal);
   </script>
+
 </body>
 </html>
